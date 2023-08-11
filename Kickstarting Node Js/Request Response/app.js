@@ -15,6 +15,7 @@ http.createServer((req, res) => {
         res.write("<html><body><h1>This is Node Project Page</h1></body></html>")
         res.end();
     } else {
+        console.log(req.headers)
         res.setHeader("Content-Type", "text/html");
         res.write("<html><body><h1>This is Unknown Page</h1></body></html>")
         res.end();
