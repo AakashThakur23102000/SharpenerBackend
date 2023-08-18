@@ -1,0 +1,25 @@
+.contact_div{
+    display: flex;
+    /* border: 2px black solid; */
+    flex-direction: column;
+}
+
+.contact_div h1{
+    font-size: 50px;
+}
+.contact_div input{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: xx-large;
+}
+
+.contact_div button{
+    margin-top: 30px;
+    width: 16%;
+    height: 3rem;
+    background-color: blue;
+    font-size: larger;
+    color: white;
+    border-radius: 30px;
+}
